@@ -10,7 +10,8 @@ This project demonstrates how modern NLP models use self-attention mechanisms fo
 
 Click below to run the notebook directly in Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/drive/1uzOw7-mvqn_8Fd5CqNl9VZztKd15tLY4?usp=sharing)](YOUR_COLAB_LINK_HERE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uzOw7-mvqn_8Fd5CqNl9VZztKd15tLY4?usp=sharing)
+
 
 ---
 
