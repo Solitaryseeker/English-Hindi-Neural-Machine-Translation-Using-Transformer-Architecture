@@ -137,10 +137,15 @@ English-Hindi-NMT/
 
 ---
 
+
 ## 👤 Author
 
 **Rohit Sahu**  
 Machine Learning & NLP Enthusiast  
+
+📧 Email: quantumsolitaryseeker@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/rohit-sahu-7142742a7/
+🐙 GitHub: https://github.com/Solitaryseeker
 
 ---
 
