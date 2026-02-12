@@ -1,5 +1,5 @@
 
----# 🌍 English–Hindi Neural Machine Translation (NMT)
+# 🌍 English–Hindi Neural Machine Translation (NMT)
 
 A deep learning–based **Neural Machine Translation (NMT)** system that translates **English → Hindi** using the **Transformer architecture**.  
 This project demonstrates how modern NLP models use self-attention mechanisms for high-quality language translation.
