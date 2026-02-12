@@ -38,11 +38,11 @@ The system is based on the **Transformer architecture**.
 
 ### Main Components:
 
-- 🔹 Encoder (Multi-Head Self-Attention + Feed Forward Network)
-- 🔹 Decoder (Masked Attention + Encoder–Decoder Attention)
-- 🔹 Positional Encoding
-- 🔹 Embedding Layers
-- 🔹 Linear + Softmax Output Layer
+🔹 Encoder (Multi-Head Self-Attention + Feed Forward Network)
+🔹 Decoder (Masked Attention + Encoder–Decoder Attention)
+🔹 Positional Encoding
+🔹 Embedding Layers
+🔹 Linear + Softmax Output Layer
 
 ---
 
@@ -59,7 +59,16 @@ The system is based on the **Transformer architecture**.
 
 ## 📂 Project Structure
 
+```text
 
+English-Hindi-NMT/
+│
+├── Dataset/ # English–Hindi parallel text dataset
+├── vocab_itb.json # Vocabulary / token-to-index mapping file
+├── English–Hindi.ipynb # Transformer model implementation notebook
+└── README.md # Project documentation
+
+```
 
 ## 🔄 Workflow
 
