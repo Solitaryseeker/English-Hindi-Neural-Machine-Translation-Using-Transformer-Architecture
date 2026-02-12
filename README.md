@@ -46,6 +46,17 @@ The system is based on the **Transformer architecture**.
 
 ---
 
+---
+
+## 📊 Dataset
+
+This project uses the **IIT Bombay English–Hindi Parallel Corpus**, a widely used dataset for machine translation research. It contains aligned English–Hindi sentence pairs for supervised sequence-to-sequence learning.
+
+🔗 **Dataset Source:**  
+[IITB English–Hindi Dataset on Hugging Face](https://huggingface.co/datasets/cfilt/iitb-english-hind
+
+------
+
 ## ⚙️ Tech Stack
 
 - Python  
