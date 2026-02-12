@@ -1,5 +1,62 @@
 
+---# 🌍 English–Hindi Neural Machine Translation (NMT)
+
+A deep learning–based **Neural Machine Translation (NMT)** system that translates **English → Hindi** using the **Transformer architecture**.  
+This project demonstrates how modern NLP models use self-attention mechanisms for high-quality language translation.
+
 ---
+
+## 🚀 Open in Google Colab
+
+Click below to run the notebook directly in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/drive/1uzOw7-mvqn_8Fd5CqNl9VZztKd15tLY4?usp=sharing)](YOUR_COLAB_LINK_HERE)
+
+---
+
+## 📌 Project Overview
+
+This project builds an **end-to-end Machine Translation system** using the Transformer model (Attention Is All You Need).
+
+The notebook includes:
+
+- Data preprocessing for bilingual text  
+- Tokenization & vocabulary building  
+- Positional Encoding  
+- Transformer Encoder–Decoder architecture  
+- Model training and evaluation  
+- English → Hindi inference generation  
+
+---
+
+## 🧠 Model Architecture
+
+The system is based on the **Transformer architecture**.
+
+### Main Components:
+
+- 🔹 Encoder (Multi-Head Self-Attention + Feed Forward Network)
+- 🔹 Decoder (Masked Attention + Encoder–Decoder Attention)
+- 🔹 Positional Encoding
+- 🔹 Embedding Layers
+- 🔹 Linear + Softmax Output Layer
+
+---
+
+## ⚙️ Tech Stack
+
+- Python  
+- TensorFlow / PyTorch (Update based on your implementation)
+- NumPy  
+- Pandas  
+- Matplotlib  
+- NLP preprocessing tools  
+
+---
+
+## 📂 Project Structure
+
+
 
 ## 🔄 Workflow
 
