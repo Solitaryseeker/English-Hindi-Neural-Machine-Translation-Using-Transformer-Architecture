@@ -75,7 +75,7 @@ This project uses the **IIT Bombay English–Hindi Parallel Corpus**, a widely u
 English-Hindi-NMT/
 │
 ├── Dataset                  # English–Hindi parallel text dataset
-├── vocab_itb.json            # Vocabulary  token-to-index mapping file
+├── vocab_itb.json           # Vocabulary  token-to-index mapping file
 ├── English–Hindi.ipynb      # Transformer model implementation notebook
 └── README.md #               
 
@@ -136,7 +136,6 @@ English-Hindi-NMT/
 - Tokenization  
 
 ---
-
 
 ## 👤 Author
 
