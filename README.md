@@ -111,7 +111,8 @@ English-Hindi-NMT/
 
 ## 📊 Sample Results
 
-[](pictures/Screenshot 2026-03-22 122319.png)
+
+![Alt text](https://github.com/Solitaryseeker/English-Hindi-Neural-Machine-Translation-Using-Transformer-Architecture/blob/6de907859dd91f24b0f8f346efb1d247993f8878/pictures/Screenshot%202026-03-22%20122319.png)
 
 ---
 
