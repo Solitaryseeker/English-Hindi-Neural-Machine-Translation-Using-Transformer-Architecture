@@ -1,0 +1,74 @@
+Transformer(
+  (encoder): Encoder(
+    (layers): ModuleList(
+      (0-3): 4 x EncoderBlock(
+        (self_attention_block): MultiHeadAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (feed_forward_block): FeedForwardBlock(
+          (liner_1): Linear(in_features=256, out_features=1024, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (liner_2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+        (residual_connection): ModuleList(
+          (0-1): 2 x ResidualConnection(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (norm): LayerNormalization()
+          )
+        )
+      )
+    )
+    (norm): LayerNormalization()
+  )
+  (decoder): Decoder(
+    (layers): ModuleList(
+      (0): DecoderBlock(
+        (self_attention_block): MultiHeadAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (cross_attention_block): MultiHeadAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (feed_forward_block): FeedForwardBlock(
+          (liner_1): Linear(in_features=256, out_features=1024, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (liner_2): Linear(in_features=1024, out_features=256, bias=True)
+        )
+        (residual_connection): ModuleList(
+          (0-2): 3 x ResidualConnection(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (norm): LayerNormalization()
+          )
+        )
+      )
+    )
+    (norm): LayerNormalization()
+  )
+  (src_embedding): InputEmbeddings(
+    (embedding): Embedding(20000, 256)
+  )
+  (tgt_embedding): InputEmbeddings(
+    (embedding): Embedding(20000, 256)
+  )
+  (src_pos_encoding): PositionalEncoding(
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (tgt_pos_encoding): PositionalEncoding(
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (projection_layer): ProjectionLayer(
+    (proj): Linear(in_features=256, out_features=20000, bias=True)
+  )
+)
