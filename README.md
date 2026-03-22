@@ -111,10 +111,7 @@ English-Hindi-NMT/
 
 ## 📊 Sample Results
 
-| English Input | Predicted Hindi Output |
-|--------------|-----------------------|
-| How are you? | तुम कैसे हो? |
-| I love India | मुझे भारत से प्यार है |
+[](pictures/Screenshot 2026-03-22 122319.png)
 
 ---
 
